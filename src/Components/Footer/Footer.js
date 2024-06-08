@@ -6,30 +6,23 @@ import { BsTwitterX } from "react-icons/bs";
 import { FiInstagram } from "react-icons/fi";
 
 
-import { useEffect } from 'react';
-
-import Aos  from 'aos';
-import 'aos/dist/aos.css'
-
 function Footer() {
-  useEffect(() => {
-    Aos.init({ duration: 2000})
-  }, [])
+
   return (
     <div className='footer'>
       <div className="secContainer .container grid">
         <div className="logoDiv">
-          <div className="footerLogo" data-aos='fade-up'>
+          <div className="footerLogo" >
             <BiLogoMediumOld className='icon' />
             <span>OU-Trips</span>
           </div>
-          <div className='social flex' data-aos='fade-up'>
+          <div className='social flex' >
             <ImFacebook className='icon'/>
             <BsTwitterX className='icon'/>
             <FiInstagram className='icon'/>
           </div>
         </div>
-        <div className="footerLinks" data-aos='fade-up'>
+        <div className="footerLinks" >
           <span className='linkTitle'>
             Information
           </span>
@@ -46,7 +39,7 @@ function Footer() {
             <a href='#'>Blog</a>
           </li>
         </div>
-        <div className="footerLinks" data-aos='fade-up'>
+        <div className="footerLinks" >
           <span className='linkTitle'>
             Helpful Links
           </span>
@@ -63,7 +56,7 @@ function Footer() {
             <a href='#'>Privacy</a>
           </li>
         </div>
-        <div className="footerLinks" data-aos='fade-up'>
+        <div className="footerLinks" >
           <span className='linkTitle'>
             Contact Details
           </span>

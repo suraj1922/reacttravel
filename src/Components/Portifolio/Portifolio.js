@@ -3,8 +3,7 @@ import './Portifolio.css';
 
 import { useEffect } from 'react';
 
-import Aos  from 'aos';
-import 'aos/dist/aos.css'
+
 
 import icon1 from '../../assets/protection.png'
 import icon2 from '../../assets/destination.png'
@@ -12,21 +11,19 @@ import icon3 from '../../assets/online-chat.png'
 import image from '../../assets/travel.jpg'
 
 function Portifolio() {
-    useEffect(() => {
-        Aos.init({ duration: 2000})
-      }, [])
+
   return (
     <div className='portifolio section container'>
         <div className="secContainer grid">
             <div className="leftContent">
                 <div className="secHeading">
-                    <h3 data-aos="fade-up">Why Should You Choose Us</h3>
-                    <p data-aos="fade-up">
+                    <h3 >Why Should You Choose Us</h3>
+                    <p >
                         We have extensive knowledge and experience in the travel
                     </p>
                 </div>
                 <div className="grid">
-                    <div className="singlePortifolio flex" data-aos='fade-right'>
+                    <div className="singlePortifolio flex">
                         <div className="iconDiv">
                             <img src={icon1} alt="Icon" />
                         </div>
@@ -37,7 +34,7 @@ function Portifolio() {
                             </p>
                         </div>
                     </div>
-                    <div className="singlePortifolio flex" data-aos='fade-right'>
+                    <div className="singlePortifolio flex">
                         <div className="iconDiv">
                             <img src={icon2} alt="Icon" />
                         </div>
@@ -48,7 +45,7 @@ function Portifolio() {
                             </p>
                         </div>
                     </div>
-                    <div className="singlePortifolio flex" data-aos='fade-right'>
+                    <div className="singlePortifolio flex">
                         <div className="iconDiv">
                             <img src={icon3} alt="Icon" />
                         </div>
@@ -61,7 +58,7 @@ function Portifolio() {
                     </div>
                 </div>
             </div>
-            <div className="rightcontent" data-aos='fade-left'>
+            <div className="rightcontent">
                 <img src={image} alt="" />
             </div>
         </div>
