@@ -1,3 +1,19 @@
+# 🌍 Travel Landing Page
+A Travel Landing Page built with React that provides an immersive experience for users looking to explore destinations. With smooth animations powered by AOS (Animate On Scroll), this website showcases stunning visuals, travel packages, and essential information to inspire wanderlust.
+
+# ✨ Features
+Visually Engaging Design: A clean, modern design to attract travel enthusiasts.
+Smooth Animations: Leveraging AOS for scroll-based animations to enhance user engagement.
+Responsive Layout: Optimized for seamless viewing on desktops, tablets, and mobile devices.
+Destination Highlights: Displays popular travel destinations with detailed information and captivating images.
+Easy Navigation: User-friendly layout with quick access to essential sections like destinations, packages, and contact.
+
+# 🖥️ Technologies Used
+React: For building a fast, modular, and dynamic interface.
+AOS (Animate On Scroll): For adding engaging animations that activate on scroll.
+CSS3: Custom styles for responsive and attractive visuals.
+React Icons: A versatile icon library to enhance UI design.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
